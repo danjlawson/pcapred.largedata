@@ -1,6 +1,6 @@
 # R Package pcapred.ukbpcs18
 
-This is a data repository for use with the R package [https://github.com/danjlawson/pcapred](pcapred). You should install that package which should automatically download this package for you.
+This is a data repository for use with the R package [https://github.com/danjlawson/pcapred](pcapred). You should install that package first. You may only want the 18 PCs included with it, in which case you don't need this additional dataset.
 
 You can use the data directly if that is helpful.
 
@@ -11,8 +11,22 @@ If you are not an R user but wish to use this data, see the [https://github.com/
 Install the package using:
 
 ```{r}
-remotes::install_github("danjlawson/pcapred")
-```
+remotes::install_github("danjlawson/pcapred.largedata")
+ ```
+
+## Using the data
+
+Usage is trivial inside of `pcapred`.
+
+```{r}
+library(pcapred)
+library(pcapred.largedata)
+ref=readreference(ukb_pcs_200())
+ ```
+
+## Data notes
+
+Note that PC loading files are large. We have therefore distributed PCS 1-100 as a standard dataset (ukb_pcs_100.load.gz) and PCS 101-200 are a separate file of 100 additional PC loadings (ukb_pcs_101-200.load.gz). If you use the dataset through R, the full set of 200 PCs is created for you by the function `(ukb_pcs_200()`. If you want the package just for the data, then you will have to paste these together or similar for use.
 
 ## Licence Information
 
