@@ -1,0 +1,11 @@
+Package: pcapred.largedata
+Type: Package
+Title: Provides up to 200 PCs for the UK Biobank with loadings and allele frequencies
+Version: 0.1.0
+Authors@R: person("Daniel", "Lawson", email = "dan.lawson@bristol.ac.uk", role = c("aut", "cre"))
+Description: Use with package "pcapred", available at https://github.com/danjlawson/pcapred.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: data.table
+RoxygenNote: 7.0.1
