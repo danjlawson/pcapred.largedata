@@ -1,4 +1,4 @@
-# R Package pcapred.ukbpcs18
+# R Package pcapred.largedata
 
 This is a data repository for use with the R package [pcapred](https://github.com/danjlawson/pcapred). You should install that package first. You may only want the 18 PCs included with it, in which case you don't need this additional dataset.
 
