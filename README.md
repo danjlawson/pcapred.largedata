@@ -1,10 +1,10 @@
 # R Package pcapred.ukbpcs18
 
-This is a data repository for use with the R package [https://github.com/danjlawson/pcapred](pcapred). You should install that package first. You may only want the 18 PCs included with it, in which case you don't need this additional dataset.
+This is a data repository for use with the R package [pcapred](https://github.com/danjlawson/pcapred). You should install that package first. You may only want the 18 PCs included with it, in which case you don't need this additional dataset.
 
 You can use the data directly if that is helpful.
 
-If you are not an R user but wish to use this data, see the [https://github.com/danjlawson/pcapred-script](command line script).
+If you are not an R user but wish to use this data, see the [command line script](https://github.com/danjlawson/pcapred-script).
 
 ## Getting started
 
